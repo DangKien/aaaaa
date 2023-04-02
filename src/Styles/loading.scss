@@ -1,0 +1,141 @@
+.loader {
+  padding: 0;
+  margin: 0;
+  background: #000;
+  widows: 100vh;
+  height: 100vh;
+}
+
+.fa-first {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid transparent;
+  border-top: 5px solid #6600CC;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.66s infinite linear;
+}
+
+.fa-second {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-right: 5px inset #FFCC00;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.58s infinite linear;
+}
+
+.fa-third {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-bottom: 5px inset #CC0000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.66s infinite linear;
+}
+
+.fa-fourth {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-left: 5px inset #00FF00;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.58s infinite linear;
+}
+
+.fa-first-in {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(156, 69, 228);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.68s infinite linear reverse;
+  animation-delay: 0.3s;
+}
+
+.fa-second-in {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-right: 5px inset rgb(255, 0, 0);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.56s infinite reverse linear;
+  animation-delay: 0.3s;
+}
+
+.fa-third-in {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-bottom: 5px inset rgb(255, 217, 0);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.68s infinite reverse linear;
+  animation-delay: 0.3s;
+}
+
+.fa-fourth-in {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-left: 5px inset rgb(73, 206, 151);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  animation: spin 1.56s infinite reverse linear;
+  animation-delay: 0.3s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

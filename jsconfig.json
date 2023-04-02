@@ -1,0 +1,18 @@
+{
+  "exclude": ["node_modules", "build"],
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["resources/js/components/*"],
+      "@atoms/*": ["resources/js/components/atoms/*"],
+      "@organisms/*": ["resources/js/components/organisms/*"],
+      "@redux/*": ["resources/js/redux/*"],
+      "@public/*": ["resources/js/public/*"],
+      "@pages/*": ["resources/js/pages/*"],
+      "@api/*": ["resources/js/api/*"],
+      "@styles/*": ["resources/js/styles/*"],
+      "@stores/*": ["resources/js/stores/*"]
+    }
+  }
+}
